@@ -8,7 +8,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        int[] array={2,4,8,5,7,4};
+        int[] array={2,4,8,5,7,1};
         SelectionSort sort= new SelectionSort();
         sort.selectionSort(array);
         System.out.println("sorted array");
